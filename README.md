@@ -50,3 +50,18 @@ The goal of this project is to prioritize biologically grounded, practically usa
 
 - Generated run outputs and exported reports are intentionally not tracked in Git.
 - The repository is focused on source logic, workflow structure, and reproducible agent behavior.
+
+## Render Deployment
+
+This repository now includes a minimal deployable service for Render:
+
+- `render.yaml`
+  Render Blueprint configuration for a Python web service.
+
+- `app.py`
+  Lightweight HTTP service that:
+  - serves a project overview page at `/`
+  - exposes a health check at `/healthz`
+  - exposes simple metadata at `/metadata`
+
+This service is intentionally small. It is meant to give the repository a clean Render deploy target, not to replace the full local Codex workflow.

@@ -1,5 +1,7 @@
 .docx-build/
 .uv-cache/
+__pycache__/
+*.pyc
 research_runs/
 skill_1_stool-data-analyzer/
 skill_2_criss_cross/
