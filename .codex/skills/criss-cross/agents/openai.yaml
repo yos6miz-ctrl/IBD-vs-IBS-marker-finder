@@ -1,0 +1,7 @@
+interface:
+  display_name: "Criss-Cross"
+  short_description: "Map molecules to promoters"
+  default_prompt: "Use $criss-cross to map Skill 1 stool molecules to bacterial promoters and regulatory systems that respond to them."
+
+policy:
+  allow_implicit_invocation: true

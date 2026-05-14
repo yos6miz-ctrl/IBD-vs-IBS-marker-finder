@@ -1,0 +1,7 @@
+interface:
+  display_name: "IBD/IBS Molecule Mining"
+  short_description: "Find detector inputs for IBD vs IBS"
+  default_prompt: "Use $ibd_ibs_molecule_mining to identify stool-associated molecules that distinguish IBD from IBS and map them to bacterial response genes for biosensor design."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Promoter Upstream Length"
+  short_description: "Estimate promoter capture length"
+  default_prompt: "Use $promoter-upstream-length to determine how many nucleotides upstream of the ATG should be taken for each retained promoter so that the relevant regulatory elements are preserved."
+
+policy:
+  allow_implicit_invocation: true

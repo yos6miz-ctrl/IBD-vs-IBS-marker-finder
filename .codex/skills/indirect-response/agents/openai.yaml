@@ -1,0 +1,7 @@
+interface:
+  display_name: "Indirect Response"
+  short_description: "Map indirect sensing logic"
+  default_prompt: "Use $indirect-response to map Skill 1 stool molecules to indirect bacterial response systems driven by secondary physiological consequences."
+
+policy:
+  allow_implicit_invocation: true

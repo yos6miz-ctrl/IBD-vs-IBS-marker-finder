@@ -1,0 +1,7 @@
+interface:
+  display_name: "Stool Data Analyzer"
+  short_description: "Deep stool biomarker discovery"
+  default_prompt: "Use $stool-data-analyzer to identify stool molecules that distinguish IBD from IBS and rank them for biosensor-oriented marker discovery."
+
+policy:
+  allow_implicit_invocation: true

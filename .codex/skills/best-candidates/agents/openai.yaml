@@ -1,0 +1,7 @@
+interface:
+  display_name: "Best Candidates"
+  short_description: "Rank detector feasibility"
+  default_prompt: "Use $best-candidates to integrate Skills 1-4 and rank the most feasible bacterial biosensor detector candidates for IBD vs IBS stool signals."
+
+policy:
+  allow_implicit_invocation: true

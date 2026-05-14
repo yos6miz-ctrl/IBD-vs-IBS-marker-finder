@@ -1,0 +1,7 @@
+interface:
+  display_name: "IBD vs IBS Marker Finder"
+  short_description: "Coordinate stool marker discovery"
+  default_prompt: "Use $ibd-vs-ibs-marker-finder to coordinate available project skills and find stool-associated biological and chemical signals that distinguish IBD from IBS and can be sensed by bacteria."
+
+policy:
+  allow_implicit_invocation: true
